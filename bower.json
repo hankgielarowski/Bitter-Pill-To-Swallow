@@ -1,0 +1,21 @@
+{
+  "name": "bitter",
+  "homepage": "https://github.com/hankgielarowski/BackboneIMDB",
+  "authors": [
+    "hankgielarowski <w_gielarowski@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.1.2"
+  }
+}
