@@ -5,7 +5,7 @@ var BitterModel = require('./bitterModel');
 
 module.exports = Backbone.View.extend({
   el: '.content',
-  template: _.template(tmpl.tweet),
+  template: _.template(tmpl.addTweet),
   events: {
     'click .submit': 'addTweet'
   },
