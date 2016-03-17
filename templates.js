@@ -4,7 +4,7 @@ templates.tweet = [
 
    "<h1><%= title %></h1>",
    "<h4><%= user %></h4>",
-   "<p><%= tweet %></p>",
+   "<p><%= desc %></p>",
    "<button class='btn-btn-danger delete'>delete</button>",
 
  ].join('');

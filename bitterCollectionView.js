@@ -4,7 +4,7 @@ var $ = require('jquery');
 var TweetView = require('./bitterView');
 
 module.exports =  Backbone.View.extend({
-  el: '.article',
+  el: '.content',
   initialize: function(){
     this.addAll();
     this.listenTo(this.collection, 'update', this.addAll);
@@ -14,7 +14,7 @@ module.exports =  Backbone.View.extend({
     this.$el.append(modelView.render().el);
   },
   addAll: function () {
-    $('.content').html('');
+    this.$el.html('');
     _.each(this.collection.models, this.addOne, this);
   }
 });
