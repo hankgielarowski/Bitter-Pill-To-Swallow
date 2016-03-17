@@ -3,8 +3,8 @@ var tmpl = require('./templates');
 var _ = require('underscore');
 
 module.exports = Backbone.View.extend({
-  tagName: 'content',
-  template: _.template(templates.tweet),
+  el: '.content',
+  template: _.template(template.tweet),
   events: {
   'click .delete': 'deleteTweet',
 },
