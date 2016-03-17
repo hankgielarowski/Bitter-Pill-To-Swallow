@@ -5,7 +5,7 @@ var BitterCollectionView = require('./bitterCollectionView');
 
 module.exports = Backbone.Collection.extend({
   model: bitterModel,
-  url: 'http://tiny-tiny.herokuapp.com/collections/bitter',
+  url: 'http://tiny-tiny.herokuapp.com/collections/bitterHank',
   initialize: function() {
     console.log('helloooo i"m a new bitter collection')
   }
