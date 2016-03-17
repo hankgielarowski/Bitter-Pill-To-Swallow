@@ -11,7 +11,7 @@ module.exports = Backbone.View.extend({
   },
   addTweet: function (event) {
     event.preventDefault();
-    var newTweet = new bitterModel(this.model.toJSON());
+    var newTweet = new BitterModel(this.model.toJSON());
     newTweet.save();
   },
 
